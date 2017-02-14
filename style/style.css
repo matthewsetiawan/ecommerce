@@ -1,0 +1,30 @@
+.box{
+      background-color: lightgrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px
+    }
+  .box a{
+    margin: 0 10px;
+}
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+}
+.flex-item{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin: 20px;
+}
+.flex-item img{
+  width:"50%";
+}
+.imgsize{
+  width: 100;
+  margin: 10px;
+}
